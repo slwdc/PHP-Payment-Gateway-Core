@@ -1,0 +1,29 @@
+{
+    "name": "slwdc/payment-gateways",
+    "description": "Payment Gateway pack for Sri Lankan Payment Gateways.",
+    "type": "library",
+    "require": {
+        "ayesh/is_countable-polyfill": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SLWDC\\PaymentGateways\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SLWDC\\PaymentGateways\\Tests\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ayesh Karunaratne",
+            "email": "ayesh@ayesh.me"
+        }
+    ]
+}
